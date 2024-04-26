@@ -32,8 +32,8 @@ Differenttown
 TX
 PQR
 2
-Swayam
-256
+Programmer
+123
 2
 ABC121
 Tv
@@ -45,7 +45,7 @@ y
 50000
 10
 2
-ABc122
+ABC122
 Charger
 Electronics
 samsung
