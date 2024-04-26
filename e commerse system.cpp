@@ -438,7 +438,7 @@ public:
             if (usernames[i] == username && passwords[i] == password) {
                 cout << "Authentication successful." << endl;
 
-                if (username == "Swayam") {
+                if (username == "Programmer") {
                     cout<<"\nyou are a programmer\n";
                     isProgrammerLoggedIn = true;
                     isCustomerLoggedIn = false;
@@ -474,8 +474,8 @@ public:
     }
 };
 
-string Authenticate::usernames[MAX_USERS] = {"Swayam"};
-string Authenticate::passwords[MAX_USERS] = {"256"};
+string Authenticate::usernames[MAX_USERS] = {"Programmer"};
+string Authenticate::passwords[MAX_USERS] = {"123"};
 bool Authenticate::isProgrammerLoggedIn = false;
 bool Authenticate::isCustomerLoggedIn = false;
 string Authenticate::loggedInUser = "";
@@ -619,7 +619,7 @@ void modifyQuantity() {
             int pass;
             cin >> pass;
 
-            if (pass == 256) {
+            if (pass == 123) {
                 product.p_quantity += quantity;
                 cout << "Quantity has been increased. Order placed successfully.\n\n" << endl;
             } else {
@@ -659,7 +659,7 @@ void removeProduct() {
                 int pass;
                 cin >> pass;
 
-                if (pass == 256 ) {
+                if (pass == 123 ) {
                     Product::products.erase(it);
                     cout << "Product with ID '" << productId << "' has been successfully deleted.\n" << endl;
                 } else {
@@ -798,7 +798,7 @@ void remove_customer(){
     cin.ignore();
     cout << "Enter Programmer Password: ";
     cin >> pass;
-    if (pass == 256) {
+    if (pass == 123) {
         Customer::deleteCustomer(username, pass1);
     } else {
         cout << "Wrong Programmer Password!" << endl;
@@ -1071,7 +1071,7 @@ void displayHeader() {
     cout << "*                     ONLINE STORE!                        *" << endl;
     cout << "*                                                          *" << endl;
     cout << "*                                           Programmed by: *" << endl;
-    cout << "*                                             Swayam Gupta *" << endl;    
+    cout << "*                                               Programmer *" << endl;    
     cout << "*                                                          *" << endl;
     cout << "************************************************************" <<"\n"<<endl;
 }
