@@ -438,7 +438,7 @@ public:
             if (usernames[i] == username && passwords[i] == password) {
                 cout << "Authentication successful." << endl;
 
-                if (username == "Programmer"||username == "Rishu"||username == "Swayam"||username == "Shreya") {
+                if (username == "Swayam") {
                     cout<<"\nyou are a programmer\n";
                     isProgrammerLoggedIn = true;
                     isCustomerLoggedIn = false;
@@ -474,8 +474,8 @@ public:
     }
 };
 
-string Authenticate::usernames[MAX_USERS] = {"Programmer", "Rishu", "Swayam", "Shreya"};
-string Authenticate::passwords[MAX_USERS] = {"ProgrammerPwd", "246", "256", "245"};
+string Authenticate::usernames[MAX_USERS] = {"Swayam"};
+string Authenticate::passwords[MAX_USERS] = {"256"};
 bool Authenticate::isProgrammerLoggedIn = false;
 bool Authenticate::isCustomerLoggedIn = false;
 string Authenticate::loggedInUser = "";
@@ -619,7 +619,7 @@ void modifyQuantity() {
             int pass;
             cin >> pass;
 
-            if (pass == 256 || pass == 246 || pass == 245) {
+            if (pass == 256) {
                 product.p_quantity += quantity;
                 cout << "Quantity has been increased. Order placed successfully.\n\n" << endl;
             } else {
@@ -659,7 +659,7 @@ void removeProduct() {
                 int pass;
                 cin >> pass;
 
-                if (pass == 256 || pass == 246 || pass == 245) {
+                if (pass == 256 ) {
                     Product::products.erase(it);
                     cout << "Product with ID '" << productId << "' has been successfully deleted.\n" << endl;
                 } else {
@@ -798,7 +798,7 @@ void remove_customer(){
     cin.ignore();
     cout << "Enter Programmer Password: ";
     cin >> pass;
-    if (pass == 256 || pass == 246 || pass == 245) {
+    if (pass == 256) {
         Customer::deleteCustomer(username, pass1);
     } else {
         cout << "Wrong Programmer Password!" << endl;
@@ -1070,10 +1070,8 @@ void displayHeader() {
     cout << "*                    WELCOME TO OUR                        *" << endl;
     cout << "*                     ONLINE STORE!                        *" << endl;
     cout << "*                                                          *" << endl;
-    cout << "* Submitted to:                             Programmed by: *" << endl;
-    cout << "* Archana Purwar                                     Rishu *" << endl;
-    cout << "* Sangeeta Mittal                             Swayam Gupta *" << endl;
-    cout << "*                                          Shreya Varshney *" << endl;
+    cout << "*                                           Programmed by: *" << endl;
+    cout << "*                                             Swayam Gupta *" << endl;    
     cout << "*                                                          *" << endl;
     cout << "************************************************************" <<"\n"<<endl;
 }
