@@ -5,5 +5,5 @@ Usage
 Before interacting with the system, it is recommended to run the input file provided to ensure that there is initial data available. Alternatively, you can provide your own data for testing purposes.
 
 Programmer Credentials
-Username: Programmer
+Username: Programmer \n
 Password: 123
