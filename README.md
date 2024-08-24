@@ -1,6 +1,6 @@
 # E-Commerce System
 
-This is a comprehensive and responsive e-commerce system implemented in C++ using vectors and other standard libraries. The system was developed as a second-year coding project, focusing on essential features for managing an online store.
+This is a comprehensive and responsive e-commerce system implemented in C++ using vectors and other standard libraries. The system was developed as a second-year semester project, focusing on essential features for managing an online store.
 
 ## Features
 
