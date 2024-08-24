@@ -8,26 +8,25 @@ This is a comprehensive and responsive e-commerce system implemented in C++ usin
 - **Product Management**: Add, remove, and manage products in the store.
 - **Cart System**: Users can add products to a cart and manage their purchases.
 - **Order Processing**: Handle orders from users with real-time updates.
-- **Data Persistence**: Use of input files to ensure initial data is loaded into the system.
-
+- 
 ## Getting Started
 
 ### Prerequisites
 
 - A C++ compiler (e.g., GCC, Clang)
-- Basic understanding of C++
+- Basic understanding of C++ and file handling
 
 ### Installation
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/ecommerce-system.git
-   cd ecommerce-system
+   git clone https://github.com/SwayamGupta12345/e-commerce-system-in-cpp.git
+   cd e-commerce-system-in-cpp
    ```
 
 2. **Compile the Program**
    ```bash
-   g++ -o ecommerce main.cpp
+   g++ -o ecommerce E-commerce.cpp
    ```
 
 3. **Run the System**
@@ -39,7 +38,7 @@ This is a comprehensive and responsive e-commerce system implemented in C++ usin
 
 ### Initial Setup
 
-- Run the provided input file (`data.txt`) to load initial data into the system.
+- Run the provided input file (`input before running.txt`) to load initial data into the system.
 - Alternatively, create your own input file in the same format.
 
 ### Login
@@ -55,19 +54,19 @@ This is a comprehensive and responsive e-commerce system implemented in C++ usin
 
 ## File Structure
 
-- **main.cpp**: The main file containing the entry point and core logic of the system.
-- **data.txt**: Sample input file to initialize the system with products and other data.
+- **E-commerce.cpp**: The main file containing the entry point and core logic of the system.
+- **input before running.txt**: Sample input file to initialize the system with products and other data.
 - **README.md**: This file.
 
 ## Customization
 
-- Modify `data.txt` to include different products or user data for testing.
-- Adjust the code in `main.cpp` to add new features or improve existing functionality.
+- Modify `input before running.txt` to include different products or user data for testing.
+- Adjust the code in `E-commerce.cpp` to add new features or improve existing functionality.
 
 ## Troubleshooting
 
 - **Login Issues**: Ensure the correct credentials are used (case-sensitive).
-- **Data Loading**: Verify the format of `input before .txt` to ensure compatibility with the system.
+- **Data Loading**: Verify the format of `input before running.txt` to ensure compatibility with the system.
 
 ## Contact
 
