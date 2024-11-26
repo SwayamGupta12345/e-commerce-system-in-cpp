@@ -8,7 +8,7 @@ This is a comprehensive and responsive e-commerce system implemented in C++ usin
 - **Product Management**: Add, remove, and manage products in the store.
 - **Cart System**: Users can add products to a cart and manage their purchases.
 - **Order Processing**: Handle orders from users with real-time updates.
-- 
+  
 ## Getting Started
 
 ### Prerequisites
