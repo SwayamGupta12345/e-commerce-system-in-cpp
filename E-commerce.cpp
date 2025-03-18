@@ -4,7 +4,6 @@
 #include <vector>
 #include <unistd.h>
 #include <windows.h>
-
 using namespace std;
 
 const int MAX_USERS = 100;
